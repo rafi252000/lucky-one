@@ -11,7 +11,6 @@ const Product = () => {
         .then (data =>setProducts(data)) 
     },[]);
     const handleAddToCart=(product)=>{
-        console.log(product);
         const newCart=[...cart,product];
         setCart(newCart);
     }
@@ -30,12 +29,14 @@ const Product = () => {
             </div>
             <div className="cart-container">
                 <h4>Selected Clothes</h4>
-                
+                {
+                        cart.map((product)=>" ")      
+                }
                 {
                     cart.map((product)=>(<p key={product.id}>{product.name} <small>Price:</small>{product.price}</p>))
                 }
-                <button>CHOOSE FOR ME</button>
-                <button>CHOOSE AGAIN</button>
+                <button className='SC-btn-cart'>CHOOSE FOR ME</button>
+                <button className='SC-btn-cart'>CHOOSE AGAIN</button>
             </div>
         </div>
         </div>

@@ -49,3 +49,11 @@
     background-color: aquamarine;
     border-radius: 20px;
 }
+.SC-btn-cart{
+    background-color: lightgreen;
+    border: none;
+    margin-right: 5px;
+}
+.SC-btn-cart:hover{
+    background-color: darkgreen;
+}
