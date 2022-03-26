@@ -1,19 +1,19 @@
 [
     {
       "id": "1",
-      "name": "rafi",
+      "name": "MITINA",
       "price": 420,
       "img": "https://sc04.alicdn.com/kf/H19c94d9f6fb14d83adb8fdb425054d155.jpg"
     },
     {
         "id": "2",
-        "name": "uddin",
+        "name": "SMART ",
         "price": 620,
         "img": "https://www.eibbuy.com/images/1610803827.jpg"
       },
       {
         "id": "3",
-        "name": "Chotan",
+        "name": "CURREN",
         "price": 420,
         "img": "https://qph.fs.quoracdn.net/main-qimg-ba3ff1ff3292a321b63b2f7b65a702d5"
       },

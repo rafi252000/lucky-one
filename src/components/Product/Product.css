@@ -45,3 +45,7 @@
     font-size: 25px;
     margin: 0px;
 }
+.cart-container p{
+    background-color: aquamarine;
+    border-radius: 20px;
+}

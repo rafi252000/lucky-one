@@ -30,7 +30,12 @@ const Product = () => {
             </div>
             <div className="cart-container">
                 <h4>Selected Clothes</h4>
-                <p>Selected Items:{cart.length}</p>
+                
+                {
+                    cart.map((product)=>(<p key={product.id}>{product.name} <small>Price:</small>{product.price}</p>))
+                }
+                <button>CHOOSE FOR ME</button>
+                <button>CHOOSE AGAIN</button>
             </div>
         </div>
         </div>
